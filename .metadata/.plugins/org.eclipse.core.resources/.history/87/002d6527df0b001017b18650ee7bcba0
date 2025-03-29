@@ -1,0 +1,16 @@
+package com.sachin;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+@Controller
+public class HelloController {
+	@RequestMapping("/p7")
+public String OpenF2(Model model ) {
+	String name="Sachin Singh Chauhan";
+	String add="Basti Uttar Pradesh";
+	model.addAttribute("n",name);
+	model.addAttribute("n",add);
+	return "f2";
+}
+}

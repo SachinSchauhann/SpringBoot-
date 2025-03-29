@@ -1,0 +1,12 @@
+package com.sachin;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class TestControl {
+@RequestMapping("/p1")
+public void hi() {
+	System.out.println("Hi....mathed call by spring boot");
+}
+}

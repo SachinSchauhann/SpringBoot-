@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title> thymleaf</title>
+</head>
+<body>
+<hr color='red'>
+<h1> This is view page thymleaf </h1>
+<hr color='green'>
+</body>
+</html>

@@ -1,0 +1,12 @@
+package com.sachin;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class Mycontroller {
+@RequestMapping("/Home")
+public String openHome() {
+	return "Home";
+}
+}

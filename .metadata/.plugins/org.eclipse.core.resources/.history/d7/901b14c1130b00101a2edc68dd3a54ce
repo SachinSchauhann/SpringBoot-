@@ -1,0 +1,12 @@
+package com.sachin;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+
+public class DemoControler {
+
+	@RequestMapping("/p5")
+	public String openF1() {
+		return "Form";
+	}
+	
+}
