@@ -17,7 +17,7 @@ public class MyController {
     @RequestMapping("/save")
 	public String processHome(@ModelAttribute User user, Model m) {
     	
-    	m.addAttribute("msg", "Welcome : "+user.getName()+",  And Your Age : "+user.getAge());
+    	m.addAttribute("msg", "Welcome : "+user.getName()+  ",  Your Age : "+user.getAge());
 		return "s";
 	}
 	
